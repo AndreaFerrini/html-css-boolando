@@ -84,6 +84,9 @@ section {
     top: 5px;
     right: 0px;
 }
+#heart:hover{
+    color:red;
+}
 .immagine1 {
     display: block;
 }
