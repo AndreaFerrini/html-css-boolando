@@ -1,8 +1,99 @@
+/* struttura standard */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header {
+header, footer {
+    min-height: 50px;
     position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.container-80 {
+    margin: 0 auto;
+    max-width: 80%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+/* sezione modifiche header */
+ul li {
+    margin-left: 1em;
+    list-style-type: none;
+    flex-basis: 20%;
+    text-align: center;
+}
+a {
+    color: white;
+    padding: 2px;
+}
+ul img {
+    flex-basis: 60%;
+}
+/* inizio modifiche main */
+main {
+    margin-top: 100px;
+}
+.flexcard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.col-3 {
+    flex-basis: calc(100% / 3 -1%);
+}
+section {
+    margin: 80px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.overlay {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left:0;
+}
+.etichette {
+    bottom: 30px;
+    left: 0;
+}
+#rossa {
+    background-color: red;
+    color: white;
+}
+#verde {
+    background-color: green;
+    color: white;
+}
+#heart {
+    background-color: white;
+    top: 5px;
+    right: 0px;
+}
+.immagine1 {
+    display: block;
+}
+.immagine2 {
+    display: none;
+}
+.cambioimmagine {
+}
+.cambioimmagine:hover .immagine1 {
+   display: none;
+}
+.cambioimmagine:hover .immagine2 {
+   display: block;
 }

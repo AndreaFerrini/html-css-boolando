@@ -10,23 +10,111 @@
     <title>Boolando</title>
 </head>
 <body>
+    <!-- inizio header -->
     <header>
-        <nav>
-            <div class="container-80 flex"></div>
-            <ul>
-                <li>
-                    <a href="#">Donna</a>
-                    <a href="#">Uomo</a>
-                    <a href="#">Bambino</a>
-                </li>
-            <img src="./assets/img/boolean-logo.png" alt="logo">
-                <li>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
-                </li>
-            </ul>
-        </nav>
+            <div class="container-80">
+                <ul class="flex">
+                    <li class="flex">
+                        <a href="#">Donna</a>
+                        <a href="#">Uomo</a>
+                        <a href="#">Bambino</a>
+                    </li>
+                <img class="flex" src="./assets/img/boolean-logo.png" alt="logo" width="100" height="50">
+                    <li class="flex">
+                        <a href="#"><i class="fa-regular fa-user"></i></a>
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
     </header>
+    <!-- inizio main -->
+    <main>
+        <!-- prima sezione 3 card -->
+        <section class="container-80 flexcard wrap">
+            <div class="card col-3">
+                <div class="relative">
+                    <img class="immagine1" src="./assets/img/1.webp" alt="card1" width="400" height="500">
+                    <div class="overlay absolute cambioimmagine">
+                        <img class= "immagine2"src="./assets/img/1b.webp" alt="card1b" width="400" height="500">
+                    </div>
+                    <div class="etichette absolute">
+                    <span id="rossa">-50%</span>
+                    <span id="verde">Sostenibilità</span>
+                    </div>
+                    <span class="absolute" id="heart">&#10084</span>
+                </div>
+            </div>
+            <div class="card col-3">
+                <div class="relative">
+                    <img class="immagine1" src="./assets/img/2.webp" alt="card2" width="400" height="500">
+                    <div class="overlay absolute cambioimmagine">
+                        <img class= "immagine2"src="./assets/img/2b.webp" alt="card2b" width="400" height="500">
+                    </div>
+                    <div class="etichette absolute">
+                    <span id="rossa">-50%</span>
+                    <span id="verde">Sostenibilità</span>
+                    </div>
+                    <span class="absolute" id="heart">&#10084</span>
+                </div>
+            </div>
+            <div class="card col-3">
+                <div class="relative">
+                    <img class="immagine1" src="./assets/img/3.webp" alt="card3" width="400" height="500">
+                    <div class="overlay absolute cambioimmagine">
+                        <img class= "immagine2"src="./assets/img/3b.webp" alt="card3b" width="400" height="500">
+                    </div>
+                    <div class="etichette absolute">
+                    <span id="rossa">-50%</span>
+                    <span id="verde">Sostenibilità</span>
+                    </div>
+                    <span class="absolute" id="heart">&#10084</span>
+                </div>
+            </div>
+        </section>
+        <!-- seconda section 3 card -->
+        <section class="container-80 flexcard wrap">
+            <div class="card col-3">
+                <div class="relative">
+                    <img class="immagine1" src="./assets/img/4.webp" alt="card4" width="400" height="500">
+                    <div class="overlay absolute cambioimmagine">
+                        <img class= "immagine2"src="./assets/img/4b.webp" alt="card4b" width="400" height="500">
+                    </div>
+                    <div class="etichette absolute">
+                    <span id="rossa">-50%</span>
+                    <span id="verde">Sostenibilità</span>
+                    </div>
+                    <span class="absolute" id="heart">&#10084</span>
+                </div>
+            </div>
+            <div class="card col-3">
+                <div class="relative">
+                    <img class="immagine1" src="./assets/img/5.webp" alt="card5" width="400" height="500">
+                    <div class="overlay absolute cambioimmagine">
+                        <img class= "immagine2"src="./assets/img/5b.webp" alt="card5b" width="400" height="500">
+                    </div>
+                    <div class="etichette absolute">
+                    <span id="rossa">-50%</span>
+                    <span id="verde">Sostenibilità</span>
+                    </div>
+                    <span class="absolute" id="heart">&#10084</span>
+                </div>
+            </div>
+            <div class="card col-3">
+                <div class="relative">
+                    <img class="immagine1" src="./assets/img/6.webp" alt="card6" width="400" height="500">
+                    <div class="overlay absolute cambioimmagine">
+                        <img class= "immagine2"src="./assets/img/6b.webp" alt="card6b" width="400" height="500">
+                    </div>
+                    <div class="etichette absolute">
+                    <span id="rossa">-50%</span>
+                    <span id="verde">Sostenibilità</span>
+                    </div>
+                    <span class="absolute" id="heart">&#10084</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- inizio footer -->
 </body>
 </html>
