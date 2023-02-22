@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, footer {
+header{
     min-height: 50px;
     position: fixed;
     top: 0;
@@ -103,4 +103,19 @@ section {
 }
 #prezzo2 {
     text-decoration: line-through;
+}
+/* inizio footer */
+footer {
+    background-color: rgb(34, 32, 32);
+    min-height: 100px;
+    color: white;
+    display: flex;
+    flex-basis: 48%;
+}
+.footerflex {
+    flex-basis: 50%;
+    justify-content: center;
+}
+footer ul li {
+    list-style-type: none;
 }
