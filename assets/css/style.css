@@ -115,8 +115,11 @@ footer {
     flex-basis: 48%;
 }
 .footerflex {
+    display: flex;
+    flex-direction: column;
     flex-basis: 50%;
     justify-content: center;
+    align-items: center;
 }
 footer ul li {
     list-style-type: none;
